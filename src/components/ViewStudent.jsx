@@ -41,8 +41,8 @@ useEffect(()=>{fetchData()}, [])
               <td>{index + 1}</td>
               <td>{student.name}</td>
               <td>{student.college}</td>
-              <td>{student.roll}</td>
-              <td>{student.admission}</td>
+              <td>{student.roll_number}</td>
+              <td>{student.admission_number}</td>
             </tr>
           ))}
         </tbody>
